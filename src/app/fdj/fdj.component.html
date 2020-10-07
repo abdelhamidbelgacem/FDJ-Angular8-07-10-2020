@@ -1,0 +1,22 @@
+﻿
+<h3>All teams:</h3>
+<!--Données à afficher pour les equipes-->
+<ul>
+    <li *ngFor="let team of teams">
+        <li>{{team.strTeam}</li> 
+        <li>{{team.banner}}</li> 
+        <li>{{team.strLeague2}}</li>
+        <li>{{team.strLeague}}</li>
+        <li>{{team.strDescriptionEN}}</li>
+    </li>
+</ul>
+
+<!--Données à afficher pour l'equipe passée en paramètre par exemple PSG -->
+<ul>
+    <li>{{team1.strTeam}</li> 
+    <li>{{team1.banner}}</li> 
+    <li>{{team1.strLeague2}}</li>
+    <li>{{team1.strLeague}}</li>
+    <li>{{team1.strDescriptionEN}}</li>
+
+</ul>
